@@ -1,0 +1,7 @@
+*/.project
+/build
+/css/bootstrap-theme.css
+/css/bootstrap.css
+/gruntjs/node_modules/*
+/fonts
+/js

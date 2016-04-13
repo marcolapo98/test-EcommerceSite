@@ -1,0 +1,61 @@
+<div class="row">
+	<footer>
+		<div class="col-md-3 dropdown">
+			<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
+				Select Language<span class="caret"></span>
+			</button>
+			<ul class="dropdown-menu">
+				<li><a href="#">Italiano</a></li>
+				<li><a href="#">Inglese</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 dropdown">
+			<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
+				Select Country<span class="caret"></span>
+			</button>
+				<ul class="dropdown-menu">
+					<li><a href="#">Italia</a></li>
+					<li><a href="#">Deutschland</a></li>
+					<li><a href="#">France</a></li>
+					<li><a href="#">Espana</a></li>
+					<li><a href="#">United Kingdom</a></li>
+				</ul>
+		</div>
+		<div class="col-md-3 dropdown">
+			<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
+				Newsletter<span class="caret"></span>
+			</button>
+				<ul class="dropdown-menu">
+					<li><input type="email" name="E-mail" placeholder="E-Mail"class="form-control"></li>
+					<input type="submit" value="submit" class="form-control">
+				</ul>
+		</div>
+		<div class="col-md-3 dropdown">
+			<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
+				Contattaci<span class="caret"></span>
+			</button>
+				<ul class="dropdown-menu">
+					<li><input type="email" name="E-mail" placeholder="E-mail" class="form-control"></li>
+					<li><input type="text" name="Nome" placeholder="Nome" class="form-control"></li>
+					<li><input type="text" name="Cognome" placeholder="Cognome" class="form-control"></li>
+					<li><input type="tel" name="Numero" placeholder="Numero" class="form-control"></li>
+					<li><input type="text" name="Oggetto" placeholder="Oggetto" class="form-control"></li>
+					<li><textarea name="testo" rows="3" cols="33"></textarea></li>
+					<input type="submit" value="submit" class="form-control">
+				</ul>
+			</form>
+		</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="text/javascript">
+	$('#myTabs a').click(function (e) {
+		e.preventDefault()
+		$(this).tab('show')
+	})
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+		$('[data-toggle="popover"]').popover()
+	})
+</script>

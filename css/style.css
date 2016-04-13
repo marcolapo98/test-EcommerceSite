@@ -1,0 +1,168 @@
+body {
+	background: #FFFF99;
+}
+
+header {
+	background: #ffffff;
+}
+
+nav {
+	background: #00004A;
+	width:100%;
+}
+
+aside {
+	background: #00004A;
+	width: 100%;
+	height: 400px;
+}
+
+section {
+	background: #ffffff;
+	width: 100%;
+	height: 400px;
+}
+
+footer {
+	float: left;
+	width: 100%;
+	background: #00004A;
+}
+
+h1 {
+	color: blue;
+	font-size: 60px;
+}
+
+h2 {
+	font-size: 50px;
+	color: black;
+}
+
+a:link {
+	color: blue;
+	text-decoration: none
+}
+
+a:visited{
+	color: blue;
+}
+
+a:hover {
+	color: white;
+}
+
+#header {
+	float: left;
+	width: 100%;
+}
+
+#header #logo {
+	float: left;
+	height: 200px;
+	margin: auto;
+}
+
+#header #logo-title {
+	line-height: 200px;
+	margin: 23px auto;
+	display: table;
+}
+
+#content {
+	float: right;
+}
+
+#side-menu {
+	float: left;
+}
+
+#select{
+	float:left;
+}
+
+#form{
+	float:right;
+}
+
+#immagini{
+	margin: auto;
+	display: table;
+}
+
+.right{
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+.profile-label{
+	text-align: right;
+}
+
+@media screen and (max-width: 768px){
+	.profile-label {
+		text-align:left;
+	}
+}
+
+.flex {
+	max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+	#logo{
+		display: none;
+	}
+	#uno{
+		float: right;
+		color: blue;
+
+	}
+	#due{
+		float: right;
+		color: blue;
+
+	}
+	#tre{
+		color: blue;
+	}
+	#quattro{
+		color: blue;
+	}
+	
+	.up{
+		position: absolute;
+		bottom: 5px;
+	}
+}
+
+#A{
+	position:relative;
+	top:20px;
+	left:50%
+}
+
+#B{
+	position:relative;
+	top:20px;
+	left:50%
+}
+
+#C{
+	position:relative;
+	bottom:20px;
+	left:50%;
+}
+
+#D{
+	position:relative;
+	bottom:20px;
+	left:50%
+}
+
+.bg{
+	background:red;
+}
