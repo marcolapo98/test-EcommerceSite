@@ -31,9 +31,10 @@
 				</ul>
 		</div>
 		<div class="col-md-3 dropdown">
-			<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
-				Contattaci<span class="caret"></span>
-			</button>
+			<form action="demo_form.asp">
+				<button class="btn btn-info dropdown-toggle form-control" type="button" data-toggle="dropdown">
+					Contattaci<span class="caret"></span>
+				</button>
 				<ul class="dropdown-menu">
 					<li><input type="email" name="E-mail" placeholder="E-mail" class="form-control"></li>
 					<li><input type="text" name="Nome" placeholder="Nome" class="form-control"></li>
@@ -45,17 +46,19 @@
 				</ul>
 			</form>
 		</div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script type="text/javascript">
-	$('#myTabs a').click(function (e) {
-		e.preventDefault()
-		$(this).tab('show')
-	})
-	$(function () {
-		$('[data-toggle="tooltip"]').tooltip()
-	})
-	$(function () {
-		$('[data-toggle="popover"]').popover()
-	})
-</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<script type="text/javascript">
+			$('#myTabs a').click(function (e) {
+				e.preventDefault()
+				$(this).tab('show')
+			})
+			$(function () {
+				$('[data-toggle="tooltip"]').tooltip()
+			})
+			$(function () {
+				$('[data-toggle="popover"]').popover()
+			})
+		</script>
+	</footer>
+</div>
